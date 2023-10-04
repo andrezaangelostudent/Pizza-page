@@ -1,0 +1,88 @@
+* 
+
+body {
+    background: rgb(231, 233, 230); /* select the background collor*/
+    background: linear-gradient(0deg, rgba(163,99,78,1) 0%, rgba(253,187,45,1) 100%); /* select the background collor*/
+    font-family: Century Gothic; /* font format of the components of the body*/
+}
+
+h1 {
+
+    font-family: Century Gothic; /* font format of the components of the h1*/
+    padding: 40px; /* change the padding*/
+    color: rgb(51, 50, 50); /* change the collor*/
+    box-shadow: 0 55px  2px rgb(226, 221, 221); /* change the collor of the box*/
+    padding: 20px;  /* change the padding*/
+    
+}
+
+h4 {
+
+    font-family: Century Gothic; /* font format of the components of the h4*/
+    margin: 0 auto; /* modify the margin*/
+
+   
+}
+
+p {
+
+    font-family: Century Gothic; /* font format of the components of the p*/
+   
+ }
+
+ img {
+    padding: 35px;  /* change the padding*/
+    border-radius: 50%; /* change the image format*/
+ }
+
+ #chickenbacon {
+    width: 50px; /* change the picture to left*/
+    display: inline-block; /* let the images in the same line*/
+    margin-right: 110px; /* change the margin right*/
+    background-color: rgb(226, 221, 221); /* collor of the select box*/
+      
+}
+
+#pepperoni {
+    width: 50px;  /* change the picture to left*/
+    display: inline-block; /* let the images in the same line*/
+    margin-right: 140px; /* change the margin right*/
+    background-color:  rgb(226, 221, 221); /* collor of the select box*/
+}
+
+#veggie {
+    width: 50px;  /* change the picture to left*/
+    background-color:  rgb(226, 221, 221); /* collor of the select box*/
+}
+
+#name {
+    
+    background-color:  rgb(226, 221, 221); /* collor of the text field*/
+}
+
+
+#email {
+    
+    background-color:  rgb(226, 221, 221); /* collor of the text field*/
+}
+
+#telephonenumber {
+    
+    background-color:  rgb(226, 221, 221); /* collor of the text field*/
+
+}
+
+#date {
+    
+    background-color:  rgb(226, 221, 221); /* collor of the date field*/
+    
+}
+
+#message {
+    
+    background-color:  rgb(226, 221, 221); /* collor of the text field*/
+}
+
+label[for="chickenbacon"] {
+    padding-left: 40px;   /* change the space to left*/
+}
