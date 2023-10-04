@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en"> <!--specify the english language-->
+<head>
+    <link rel="stylesheet" href="Pizzastyles.css"> <!--link css to html-->
+    <meta charset="UTF-8"> <!--Unicode Transformation Format-->
+    <title> Amazing Pizza </title> <!--title of the page-->
+</head>
+    <body>
+        <h1> Welcome to Amazing Pizza! </h1> <!-- the heading -->
+        <h4> Our pizza is made with selected ingredients. Order now and try the best pizza ever!</h4><!--Sub heading-->
+        <br><br> <!--space between text--> 
+        <p> To order your pizza, please fill out the form below and then click on "submit order".</p> <!--Paragraph-->
+        <br> <!--space between text--> 
+        
+        <label for="number">Select the number of pizzas: </label>  <!--Name of the field--> 
+        <br> <!--space between text--> 
+
+        <p><i>Note. Chicken bacon, pepperoni and veggie pizza. Reprinted from Domino's website</i></p> <!--paragraph with image reference-->
+         <img src="images/Chicken Bacon.png" alt="Chicken Bacon"> <!--image of a chicken bacon pizza and an alternative text description of the image-->
+            <img src="images/pepperoni.png" alt="Pepperoni"> <!--image of a pepperoni pizza and an alternative text description of the image-->
+            <img src="images/Veggie.png" alt="Veggie"> <!--image of a veggie pizza and an alternative text description of the image-->
+            <br> <!--space between text--> 
+        
+        <label for="chickenbacon"><strong>Add Chicken Bacon Pizza</strong></label>  <!--Name of the field-->
+        <input type="number" id="chickenbacon" name="number" min="1" step="1"> <!--determinate that is a number field and give the min value that the user can type + the user can add 1 unit per click -->
+        
+        <label for="pepperoni"><strong>Add Pepperoni Pizza</strong></label>  <!--Name of the field-->
+        <input type="number" id="pepperoni" name="number" min="1" step="1"> <!--determinate that is a number field and give the min value that the user can type + the user can add 1 unit per click -->
+
+        <label for="veggie"><strong>Add Veggie Pizza</strong></label>  <!--Name of the field-->
+        <input type="number" id="veggie" name="number" min="1" step="1"> <!--determinate that is a number field and give the min value that the user can type + the user can add 1 unit per click -->
+        <br><br> <br><br>  <!--space between text--> 
+
+        <label for="size">Select the size:</label> <!--create the field and declare that is an attribute-->
+        <br><br> <!--double space-->
+
+        <input type="radio" id="small" name="size" value="small"> <!--create the radio button that is part of the size attribute-->
+            <label for="small">Small</label> <!--name of the radio field-->
+            
+            <input type="radio" id="medium" name="size" value="medium"> <!--create the radio button that is part of the size attribute-->
+            <label for="medium">Medium</label> <!--name of the radio field-->
+    
+            <input type="radio" id="large" name="size" value="large"> <!--create the radio button that is part of the size attribute-->
+            <label for="large">Large</label> <!--name of the radio field-->
+            <br><br> <br><br>  <!--space between text--> 
+
+            <label for="shape">Select the shape:</label> <!--create the field and declare that is an attribute-->
+            <br><br> <!--double space-->
+    
+            <input type="radio" id="square" name="shape" value="square"> <!--create the radio button that is part of the shape attribute-->
+            <label for="square">Square</label> <!--name of the radio field-->
+            
+            <input type="radio" id="round" name="shape" value="round"> <!--create the radio button that is part of the shape attribute-->
+            <label for="round">Round</label> <!--name of the radio field-->
+            <br><br> <br><br>  <!--space between text--> 
+    
+            <label for="toppings">Select your toppings:</label> <!--create the field and declare that is an attribute-->
+            <br><br> <!--double space-->
+
+            <input type="checkbox" id="cheese" name="toppings" value="cheese"> <!--create a checkbox that is part of toppings attribute-->
+            <label for="cheese">Cheese</label> <!--name of the checkbox field-->
+
+            <input type="checkbox" id="tomato" name="toppings" value="tomato"> <!--create a checkbox that is part of toppings attribute-->
+            <label for="tomato">Tomato</label> <!--name of the checkbox field-->
+            
+            <input type="checkbox" id="bacon" name="toppings" value="bacon"> <!--create a checkbox that is part of toppings attribute-->
+            <label for="bacon">Bacon</label> <!--name of the checkbox field-->
+
+            <input type="checkbox" id="mushrooms" name="toppings" value="mushrooms"> <!--create a checkbox that is part of toppings attribute-->
+            <label for="mushrooms">Mushrooms</label> <!--name of the checkbox field-->
+
+            <input type="checkbox" id="redsauce" name="toppings" value="redsauce"> <!--create a checkbox that is part of toppings attribute-->
+            <label for="redsauce">Red sauce</label> <!--name of the checkbox field-->
+            <br><br> <br><br>  <!--space between text--> 
+
+            <label for="crusttype">Select the crust type:</label> <!--create the field and declare that is an attribute-->
+            <br><br> <!--double space-->
+
+            <input type="radio" id="deepdish" name="crusttype" value="deepdish"> <!--create the radio button that is part of the crusttype attribute-->
+            <label for="deepdish">Deep dish</label> <!--name of the radio field-->
+
+            <input type="radio" id="thincrust" name="crusttype" value="thincrust"> <!--create the radio button that is part of the crusttype attribute-->
+            <label for="thincrust">Thin crust</label> <!--name of the radio field-->
+            <br><br> <br><br>  <!--space between text--> 
+
+            <label for="servicemethod">Select the service method:</label> <!--create the field and declare that is an attribute-->
+            <br><br> <!--double space-->
+            
+            <input type="radio" id="delivery" name="servicemethod" value="delivery"> <!--create the radio button that is part of the servicemethod attribute-->
+            <label for="delivery">Delivery</label> <!--name of the radio field-->
+
+            <input type="radio" id="takeout" name="servicemethod" value="takeout"> <!--create the radio button that is part of the servicemethod attribute-->
+            <label for="takeout">Take out</label> <!--name of the radio field-->
+
+            <input type="radio" id="eatin" name="servicemethod" value="eatin"> <!--create the radio button that is part of the servicemethod attribute-->
+            <label for="eatin">Eat-in</label> <!--name of the radio field-->
+            <br><br>   <!--space between text--> 
+
+                <p> Now we are almost finishing, please fill out the contact information below:</p> <!--Paragraph-->
+
+                <label for="name"> Name: </label> <!-- name of the field -->
+                <input type="text" name="name" id="name"> <!-- the field -->
+                <br><br>
+
+                <label for="email"> Email: </label> <!-- name of the field -->
+                <input type="text" name="email" id="email"> <!-- the field -->
+                <br><br>
+            
+                <label for="telephonenumber">Telephone Number:</label> <!--Name of the field-->
+                <input type="tel" id="telephonenumber"  name="telephonenumber" placeholder="(XXX) XXX-XXXX" pattern="^\(\d{3}\) \d{3}-\d{4}$"> <!--determinate a number field, give a hint on what the user should type and specify the format-->
+                <br><br> <!--double space-->
+
+                <label for="date">Date:</label> <!--Name of the field-->
+                <input type="date" id="date" name="date"> <!--determinate that is a date field and is part of date attribute-->
+                <br><br> <!--double space-->
+
+                <label for="message"> Message: </label> <!-- name of the field -->
+                <input type="text" name="message" id="message"> <!-- the field -->
+                <br><br> <!--double space-->
+
+                <label for="paymentmethod">Select the payment method:</label> <!--create the field and declare that is an attribute-->
+                <br><br> <!--double space-->
+
+            <input type="radio" id="debit" name="paymentmethod" value="debit"> <!--create the radio button that is part of the paymentmethod attribute-->
+            <label for="debit">Debit</label> <!--name of the radio field-->
+
+            <input type="radio" id="credit" name="paymentmethod" value="credit"> <!--create the radio button that is part of the paymentmethod attribute-->
+            <label for="credit">Credit</label> <!--name of the radio field-->
+            <br><br> <br><br>  <!--space between text--> 
+
+            <input type="submit" value="Submit"> <!--submit button-->  
+            <input type="reset" value="Reset"> <!--reset button-->  
+
+        </body>
+        </html>
